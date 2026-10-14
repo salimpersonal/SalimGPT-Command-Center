@@ -1,0 +1,14 @@
+# Never publish secrets or user-generated private datasets
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*token*
+node_modules/
+screenshots/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.local.json
+private-data/

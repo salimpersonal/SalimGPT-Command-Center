@@ -1,0 +1,14 @@
+{
+  "name": "salimgpt-command-center",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-first, GitHub-native documentary and publishing-tracking command center; no social publishing.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check js/app.js && node --check js/views.js && node --check js/forms.js && node --check js/cloud.js && node --check js/sync-core.js && node --check js/store.js && node --check js/forms.js && node --check js/utils.js && node --check js/constants.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

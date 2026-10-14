@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "SalimGPT Command Center v2",
+  "short_name": "SG Command",
+  "description": "Documentary production and publication tracking, social profile registry and personal reminders. Does not publish content.",
+  "lang": "bn",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#0b1725",
+  "theme_color": "#0b1725",
+  "icons": [
+    {"src":"./assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"},
+    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
